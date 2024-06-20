@@ -13,3 +13,7 @@ git reset --hard $ID 将git存档回到ID版本（ID版本之后的版本会被�
 git remote add origin https://github.com/TudouOxole/code-for-lammps
 git branch -M main
 git push -u origin main
+
+git clone https://github.com/TudouOxole/code-for-lammps 下载项目
+git push 下载更新项目
+git checkout -b branch2 创建分支版本
