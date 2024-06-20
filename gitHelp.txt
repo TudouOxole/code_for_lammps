@@ -1,0 +1,15 @@
+How to use git?
+git --version
+git config --global user.name "TudouOxole"
+git config --global user.email "923770910@qq.com"
+git init 初始化
+git status 检查状态
+git add . 添加文件
+git commit -m "create my project" 上传
+git log 日志，查看上传历史 --oneline 快速浏览上传记录
+git diff $ID -- $file 比较最新版本与ID版本中，file的差异
+git checkout $ID -- $file 将file文件恢复到ID版本（通常与7，8一起用）（创新新版本）
+git reset --hard $ID 将git存档回到ID版本（ID版本之后的版本会被删除）
+git remote add origin https://github.com/TudouOxole/code-for-lammps
+git branch -M main
+git push -u origin main
